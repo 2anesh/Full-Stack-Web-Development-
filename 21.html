@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document of Position in css</title>
+    <style>
+        .container{
+            border: 3px solid yellow;
+            background-color: blue;
+            margin: 5px;
+            height: 858px;
+            
+        }
+     .box{
+        display: inline-block;
+        border: 3px solid rosybrown;
+        width: 200px;
+        height: 200px;
+        margin: 5px;
+        background-color: yellow;
+     }
+    #box3{
+        /*position: relative;
+        
+        bottom: 50px;
+        left: 30px;
+        right: 50px;
+        padding: fixed;
+        right: 5px; */
+        position:sticky;
+        top: 30px;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1">A</div>
+        <div class="box" id="box2">B</div>
+        <div class="box" id="box3">C</div>
+        <div class="box" id="box4">D</div>
+    </div>
+    </body>
+    </html>
+      
+    
