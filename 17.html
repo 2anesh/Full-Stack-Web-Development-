@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document of Alignment in Css</title>
+    <style>
+        *{
+            box-sizing: border-box;
+
+        }
+    .container{
+        width: 800px;
+        border: 3px solid green;
+        margin: auto;
+        background-color: blue;
+
+    }
+    .item{
+      border: 5px solid black;
+      margin: 12px 13px ;
+      padding: 10px 12px;
+      background-color: rgb(235, 207, 207);
+    }
+    .phone{
+        border: 5px solid black;
+      margin: 12px 13px ;
+      padding: 10px 12px;
+      background-color: rgb(235, 207, 207);
+    }
+    #alignment{
+     float: left;
+     width: 50%;
+    }
+    #fruit{
+        /*float: left;*/
+        clear: left;
+        width: 100%; 
+
+    }
+    p,h1{
+        /*text-align: right;
+        text-align: left;
+        text-align: center;*/
+        text-align: justify;
+    }
+    /*#phone{
+        float: left;
+        width: 50%;
+    }*/
+    </style>
+</head>
+<body>
+    <div class="container">
+     <div id="fruits" class="item">
+        <h2>Welcome Guys in my store:</h2>
+        <h3>Alignment in Css</h3>
+        <p id="AlignmentPara" class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda rem doloribus veniam modi, iusto veritatis nulla? Molestiae explicabo perspiciatis eius culpa tempora saepe excepturi officiis dolor voluptate, totam asperiores sunt?
+        Distinctio, cum maiores fugit, ducimus facere quam amet sequi nesciunt quis modi architecto, assumenda at odio ipsa deserunt? Dignissimos, repudiandae? In excepturi debitis provident reprehenderit fugiat nobis atque molestiae voluptas.
+        </p>
+     </div>
+     <div id="fruits" class="item">
+        <h3>Fruits</h3>
+        <p id="fruitPara" class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda rem doloribus veniam modi, iusto veritatis nulla? Molestiae explicabo perspiciatis eius culpa tempora saepe excepturi officiis dolor voluptate, totam asperiores sunt?
+        Distinctio, cum maiores fugit, ducimus facere quam amet sequi nesciunt quis modi architecto, assumenda at odio ipsa deserunt? Dignissimos, repudiandae? In excepturi debitis provident reprehenderit fugiat nobis atque molestiae voluptas.
+        </p>
+     </div>
+     <div id="phone" class="item">
+        <h3>Phone</h3>
+        <p id="phonePara" class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda rem doloribus veniam modi, iusto veritatis nulla? Molestiae explicabo perspiciatis eius culpa tempora saepe excepturi officiis dolor voluptate, totam asperiores sunt?
+        Distinctio, cum maiores fugit, ducimus facere quam amet sequi nesciunt quis modi architecto, assumenda at odio ipsa deserunt? Dignissimos, repudiandae? In excepturi debitis provident reprehenderit fugiat nobis atque molestiae voluptas.
+        </p>
+     </div>
+    </div>
+</body>
+</html>
