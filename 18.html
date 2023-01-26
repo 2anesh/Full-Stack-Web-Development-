@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document of styling links & Buttons in css</title>
+    <style>
+     .container{
+        border: 3px solid violet;
+        background-color: cadetblue;
+        padding: 30px;
+        margin: 34px auto;
+        width: 900px;
+     }
+     
+     a:hover{
+        color: black;
+        background-color: brown;
+     }
+     a:visited{
+     background-color: chartreuse;
+     }
+     a:active{
+        background-color: darkgreen;
+     }
+     .btn{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: bold;
+        background-color: blueviolet;
+        padding: 3px;
+        border: none;
+        cursor: pointer;
+        font-size: 21px;
+        border-radius: 12px;
+     }
+     .btn:hover{
+     color: azure;
+     background-color: blanchedalmond;
+     border: 3px solid yellowgreen;
+     }
+    </style>
+</head>
+<body>
+    <h1>Pseudo selectors</h1>
+    <div class="container" id="cont1">
+    <h3>This is my subheading!</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo laborum cum, quam similique blanditiis tempore rem minima excepturi velit sint nihil? Facilis incidunt exercitationem, praesentium ratione rem illum quam provident.
+    Sunt cum eius, incidunt, dolorum ex consectetur, sed qui facilis est animi atque? Commodi unde accusantium, totam impedit autem iure, itaque laborum, neque distinctio quae sed sunt earum libero et!</p>
+    <a href="https://linkedin.com"class="btn">Read more</a>
+    <button class="btn">contact us</button>
+</div>
+</body>
+</html>
