@@ -1,0 +1,8 @@
+class Solution {
+  public:
+    int setBits(int N) {
+        // Write Your Code here
+        bitset<32> bit(N);
+        return bit.count();
+    }
+};
