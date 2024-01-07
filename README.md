@@ -1,0 +1,1 @@
+Full-stack web development refers to the practice of building both the front-end (client-side) and back-end (server-side) components of a web application. A full-stack web developer possesses the skills and knowledge to work on every layer of a web application, from designing user interfaces to managing databases and servers.
