@@ -2,23 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ids and Classes</title>
+    <title>Positioning</title>
+    <style>
+        #first_section{
+            color: blueviolet;
+            background-color: chartreuse;
+            width: 200px;
+            height: 300px;
+            position: relative;
+            left: 200px;
+            top: inherit;
+            z-index: 1;
+        }
+        #second_section{
+            color: cadetblue;
+            background-color: brown;
+            width: 260px;
+            height: 350px;
+            position: relative;
+            left: 200px;
+            right: -200px;
+            z-index: 2;
+            opacity: 0.5;
+        }
+    </style>
 </head>
 <body>
-    <h3>This is Ids and Classes</h3>
-    <div id="mainBox" class="redBg blackBorder">This is mainBox</div>
-    <span>class="redBg" </span>
-    <!-- emmit ids and class -->
-    <span>class="redBg"</span>
-    <span>id="mainSpan</span>
-    <div class="redBg blackBorder another class"></div>
-    <!-- emmit default act as div tag -->
-    <div class="blackBorder"></div>
-    <!-- for multiple elements -->
-    <span class="myClass myClass2 myClass3">First</span>
-    <span class="myClass myClass2 myClass3">second</span>
-    <span class="myClass myClass2 myClass3">Third</span>
+    <div id="first_section">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas ad quaerat accusamus voluptatem?</p>
+        <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non vel quam omnis distinctio illo, consequuntur nihil quidem consequatur debitis commodi, accusamus, asperiores sint?</h3>
+    </div>
+    <div id="second_section">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam similique atque porro odit quo hic in. Expedita fugit nisi provident assumenda illo autem. Nulla deserunt in nihil nostrum ratione officia!50</p>
+        <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium doloremque aperiam provident, maiores unde tempore alias similique iusto cupiditate molestias dolorum itaque sint excepturi nemo impedit ab asperiores, vitae quis commodi quidem ut repellat ipsam dolore porro. Necessitatibus esse eligendi minus cumque aliquam aliquid dolor, reiciendis ad voluptas sequi nisi? Pariatur ratione blanditiis, deserunt voluptas, earum rem quibusdam odio harum numquam voluptates, molestiae modi repellendus. Recusandae molestiae officia aliquam nobis?</h4>
+    </div>
 </body>
 </html>

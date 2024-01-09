@@ -2,23 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document Fonts in CSS</title>
+    <title>Aligning Text</title>
     <style>
-        p{
-            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            font-size: 31px; /*fonts is 1/96th  inches */
-            line-height: 1rem;
-        }
-        span{
-            font-weight: bold;
-            font-size:medium;
-        }
+     p{
+        text-align: right;
+     }
+     div{
+        width:400px;
+        height: 300px;
+        background-color: chartreuse;
+     }
+     .centered{
+        text-align: center;
+     }
+     .justified{
+        text-align: justify;
+     }
     </style>
 </head>
 <body>
-    <h3>Fonts in CSS:-</h3>
-    <p>Let's learn <span>fonts</span>!</p>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum tempore, labore voluptate dignissimos illum corrupti?</p>
+        <p class="centered">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere vitae reiciendis illum ullam cum?</p>
+        <p class="justified">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam consectetur harum quam dolorem.</p>
+    </div>
 </body>
 </html>

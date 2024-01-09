@@ -2,19 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document of CSS</title>
-    <link rel="stylesheet" href="10.css">
+    <title>Borders</title>
     <style>
-        p{
-            color:rgb(88, 88, 158);
-            background-color:yellowgreen  !important;
-        }
+     #square-red{
+        color: darkgoldenrod;
+        background-color: blueviolet;
+        width: 500px;
+        height: 500px;
+        border: 2px black solid;
+     }
+     #square-blue{
+        color: coral;
+        background-color: rgb(32, 8, 54);
+        width: 500px;
+        height: 500px;
+        border-color: rgb(253, 253, 255);
+        border: 2px black solid;
+     }
+     #square-green{
+        color: coral;
+        background-color: rgb(194, 183, 204);
+        width: 500px;
+        height: 500px;
+        border-color: chartreuse;
+        border: 2px black solid;
+     }
+     .square{
+        color: blanchedalmond;
+        width: 500px;
+        height: 500px;
+        float: left;
+        border-color: cyan;
+        border: 2px black solid;
+     }
     </style>
 </head>
 <body>
-    <h1>CSS:</h1>
-    <p>Here the content of css</p>
+    <div id="square-red" class="square">
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, nemo.</h3>
+        <h>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde temporibus perspiciatis adipisci ut, harum officiis pariatur veritatis quae sequi ea reprehenderit asperiores sed magnam, minus magni rerum et accusantium laboriosam a totam iste. Animi asperiores labore minima et tempore, molestias consectetur, ipsam aliquid deleniti, fugiat doloremque reiciendis recusandae harum fuga.</h3>
+    </div>
+    <div id="square-blue"class="square">
+        <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, quos.</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum, veniam? Nulla totam, dolorem blanditiis accusantium necessitatibus facere minima reprehenderit autem, quaerat maiores corrupti minus veritatis aut voluptatem odit rerum. Odit quaerat, dolorem fugiat libero a, deleniti commodi nesciunt cumque sed atque dolorum hic doloremque labore. Ea expedita dolorem esse placeat.</p>
+    </div>
+    <div id="square-green" class="square">
+        <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor, rerum.</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa consequuntur accusantium corrupti maxime esse in necessitatibus quas harum earum. Beatae ducimus consequatur quaerat iusto odio tempora eligendi minus itaque laudantium laborum debitis sint necessitatibus nulla expedita, veritatis quo consequuntur minima omnis? Qui labore consequuntur iste sequi reprehenderit eaque, nostrum similique?</p>
+    </div>
 </body>
 </html>
