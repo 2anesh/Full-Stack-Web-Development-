@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Gtech-Tic-Tac-Toe</title>
+</head>
+<body>
+    <div id="game-container" class="container">
+        <h1>Gtech-Tic-Tac-Toe</h1>
+        <div id="board" class="board"></div>
+        <div id="status" class="status">Player X's turn</div>
+        <button id="resetBtn" class="reset-btn">New Game</button>
+    </div>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="modal-message"></div>
+            <button id="newGameBtn" class="reset-btn" onclick="newGame()">New Game</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
